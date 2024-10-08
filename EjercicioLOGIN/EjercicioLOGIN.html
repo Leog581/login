@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Notificación</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="form-container">
+            <div class="login-container">
+                <h2>Bienvenidos</h2>
+                <p>Inicio de Sesión</p>
+
+                <form action="">
+                    <p>
+                        <label for="username">Username</label>
+                        <input type="text" class="input" name="username" />
+                    </p>
+                
+                    <p>
+                        <label for="password">Password</label>
+                        <input class="input" type="password" name="password" />
+                    </p>
+                
+                    <div class="options">
+                        <div>
+                            Remember me <input type="checkbox" name="rememberme" id="" />
+                        </div>
+                        <div>
+                            <a href="#">Olvide mi password</a>
+                        </div>
+                    </div>
+
+                    <p>
+                        <input class="btn btn-login" type="submit" value="Iniciar sesión" />
+                    </p>
+                    <div class="providers">
+                        <span>Otros métodos para hacer login</span>
+                        <a href="https://accounts.google.com/ServiceLogin?hl=es&continue=https://www.google.com/" target="_blank">
+                            <button class="btn google-provider">
+                                <img src="logos/logo-google.png" class="logo" alt="logo-google">
+                                Google  
+                            </button>
+                        </a>
+                        <a href="https://www.instagram.com/accounts/login/" target="_blank">
+                            <button class="btn instagram-provider">
+                                <img src="logos/logo-instagram.png" class="logo" alt="logo-instagram">
+                                Instagram  
+                            </button>
+                        </a>
+                        <a href="https://www.facebook.com/login/" target="_blank">
+                            <button class="btn facebook-provider">
+                                <img src="logos/logo-facebook.png" class="logo" alt="logo-facebook">
+                                Facebook  
+                            </button>
+                        </a>
+                        <a href="https://twitter.com/login" target="_blank">
+                            <button class="btn x-provider">
+                                <img src="logos/logo-x.png" class="logo" alt="logo-x">
+                                X / Twitter  
+                            </button>
+                        </a>
+                    </div>
+                </form>
+            </div>
+            <div class="welcome-screen-container"></div>
+        </div>
+    </body>
+</html>
